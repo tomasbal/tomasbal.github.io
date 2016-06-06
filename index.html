@@ -1,6 +1,18 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		
+		 <script>
+      function disableClick(){
+        document.onclick=function(event){
+          if (event.button == 2) {
+            alert('Right Click Message');
+            return false;
+          }
+        }
+      }
+    </script>
+    
 		<link rel="icon" href="favicon.png">
 		<title>Tomislav Balabanov</title>
 		<meta charset="utf-8" />
@@ -11,7 +23,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="noscript.css" /></noscript>
 	</head>
-	<body class="is-loading">
+	<body class="is-loading" onLoad="disableClick()">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
