@@ -416,7 +416,7 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
-mark{
+*mark{
   
-  opacity: 0.4;
+  opacity: 0.8;
 }
