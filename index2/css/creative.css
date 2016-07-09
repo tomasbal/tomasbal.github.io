@@ -422,7 +422,7 @@ body {
   opacity: 0.8;
 }
 
-	#footer .copyright li {
+	#footer1 .copyright li {
 				display: inline-block;
 				margin: 0 0 0 0.45em;
 				padding: 0 0 0 0.85em;
@@ -431,6 +431,6 @@ body {
 				color: #F8F8FF;
 			}
 
-				#footer .copyright li:first-child {
+				#footer1 .copyright li:first-child {
 					border-left: 0;
 				}
