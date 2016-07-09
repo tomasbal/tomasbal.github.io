@@ -417,5 +417,6 @@ body {
 
 #homeHeading {
   display:inline; 
+  opacity: 0.3;
 }
 
