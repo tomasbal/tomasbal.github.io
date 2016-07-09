@@ -289,7 +289,7 @@ header .header-content .header-content-inner p {
   padding-right: 0;
   padding-left: 0;
 }
-.btn-default {
+.btn-default {
   color: #222222;
   background-color: white;
   border-color: white;
@@ -422,7 +422,26 @@ body {
   opacity: 0.8;
 }
 
-	#footer1 .copyright li {
+#footer {
+		-moz-align-self: -moz-flex-end;
+		-webkit-align-self: -webkit-flex-end;
+		-ms-align-self: -ms-flex-end;
+		align-self: flex-end;
+		width: 100%;
+		padding: 1.5em 0 0 0;
+		color: rgba(255, 255, 255, 0.75);
+		cursor: default;
+		text-align: center;
+	}
+
+		#footer .copyright {
+			margin: 0;
+			padding: 0;
+			font-size: 0.9em;
+			list-style: none;
+		}
+
+			#footer .copyright li {
 				display: inline-block;
 				margin: 0 0 0 0.45em;
 				padding: 0 0 0 0.85em;
@@ -431,6 +450,6 @@ body {
 				color: #F8F8FF;
 			}
 
-				#footer1 .copyright li:first-child {
+				#footer .copyright li:first-child {
 					border-left: 0;
 				}
