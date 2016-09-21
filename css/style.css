@@ -3183,7 +3183,9 @@ border:none;
 	.contact-right form input[type="submit"] {
 	  width: 55%;
 	  background: url(../images/mess.png) no-repeat 14px 11px;
-	  padding-left: 13px;
+	
+	  padding:auto;
+	  margin:auto;
 	}
 	.footer-top {
 	  min-height: 55px;
