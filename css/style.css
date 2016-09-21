@@ -359,8 +359,7 @@ border-bottom: 2px solid #c3c3c3;
 }
 .edu-grid{
 position:relative;
-margin-left: 33%;
-margin-right: 33%;
+margin: auto;
 }
 .edu-grid img{
 position:absolute;
