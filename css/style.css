@@ -2603,6 +2603,7 @@ border:none;
 	.contact-right form input[type="submit"] {
 	  background: url(../images/mess.png) no-repeat 37px 14px;
 	  font-size: 16px;
+	  padding-right: 10px;
 	  }
 	.footer-top {
 	  min-height: 90px;
