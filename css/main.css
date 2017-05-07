@@ -1,7 +1,6 @@
 /* ----------------------------------
-Ocean
-Version: 1.2
-Author: BootEx
+
+Author: Tomislav Balabanov
 
 -------------------------------------
 
@@ -272,8 +271,8 @@ img {
 }
 
 .logo {
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 30%;
   position: relative;
   text-align: center;
   padding: 5px;
