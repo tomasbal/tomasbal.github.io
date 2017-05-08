@@ -270,6 +270,21 @@ img {
   z-index: 20;
 }
 
+
+.logo1 {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding: 5px;
+}
+
+.logo1 h2 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 600;
+}
 .logo {
   display: inline-block;
   width: 30%;
